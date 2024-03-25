@@ -1,0 +1,32 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+p {
+  font-size: larger;
+}
+.contactWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.contactData {
+  margin-right: 10px;
+}
+
+.contactData p {
+  margin: 0;
+}
+
+.svg {
+  margin-right: 5px;
+}
+.buttonDelete {
+  background-color: rgb(240, 109, 109);
+}
